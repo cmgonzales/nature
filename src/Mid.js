@@ -1,10 +1,11 @@
 import React from 'react';
-import {React_Bootstrap_Carousel} from 'react-bootstrap-carousel';
+
 import 'bootstrap/dist/css/bootstrap.css';
 import 'react-bootstrap-carousel/dist/react-bootstrap-carousel.css';
+import {React_Bootstrap_Carousel} from 'react-bootstrap-carousel';
 import { Container, Row, Col } from 'reactstrap';
 
-class mid extends React.Component {
+class Mid extends React.Component {
     constructor(props) {
         super(props);
         this.state={}
@@ -96,4 +97,4 @@ class mid extends React.Component {
     }
 
 };
-export default mid;
+export default Mid;
