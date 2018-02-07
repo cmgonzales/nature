@@ -45,7 +45,8 @@ class Mid extends React.Component {
             <div className="col-md-12">
               <React_Bootstrap_Carousel
                 animation={true}
-                slideshowSpeed={4000}
+                vertical = {true}
+                slideshowSpeed={2000}
                 leftIcon={leftIcon}
                 rightIcon={rightIcon}
                 onSelect={this.onSelect}
@@ -55,20 +56,20 @@ class Mid extends React.Component {
                 <div className = 'carosel'>
                   <img
                     
-                    src= {require('./mind.jpg')}
+                    src= {require('./mind.jpg')} alt = "Mind"
                   />
                   
                 </div>
                 <div className = 'carosel'>
                 <img
                 
-                src= {require('./brave.jpg')}/>
+                src= {require('./brave.jpg')} alt = "Brave"/>
                   </div>
                 
                 <div className = 'carosel'>
                 <img
                 
-                src= {require('./nature.jpg')}/>
+                src= {require('./nature.jpg')} alt ="nature"/>
                 </div>
                 
                 
@@ -78,7 +79,7 @@ class Mid extends React.Component {
           <Container className = 'container'>
           <Row>
           <Col xs="6">
-          <img src = {require('./quote.jpg')}/>
+          <img src = {require('./quote.jpg')} alt = "quote"/>
           </Col>
           <Col xs="6">
           <p>Nature's peace will flow into you as sunshine flows into trees. The winds will blow their own freshness into you, and the storms their energy, while cares will drop away from you like the leaves of Autumn.” “The sea is emotion incarnate. It loves, hates, and weeps.</p>
