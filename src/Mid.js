@@ -46,7 +46,7 @@ class Mid extends React.Component {
               <React_Bootstrap_Carousel
                 animation={true}
                 vertical = {true}
-                slideshowSpeed={2000}
+                slideshowSpeed={3000}
                 leftIcon={leftIcon}
                 rightIcon={rightIcon}
                 onSelect={this.onSelect}
